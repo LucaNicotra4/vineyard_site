@@ -58,7 +58,7 @@ body {
   text-align: center;
   padding-top: 30px;
   margin-top: 0px;
-  font-family: "Open Sans", arial;
+  font-family: "Open Sans", "Raleway";
   font-size: 300%;
 }
 
@@ -67,7 +67,7 @@ body {
   text-align: center;
   padding-top: 30px;
   margin-top: 0px;
-  font-family: "Open Sans", arial;
+  font-family: "Open Sans", "Raleway";
   font-size: 125%;
 }
 
@@ -105,7 +105,7 @@ body {
 
 .h2about {
   text-align: center;
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", "Raleway";
   font-size: 40px;
 }
 
