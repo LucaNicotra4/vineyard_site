@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Open+Sans:wght@300;400&family=Raleway:wght@300;400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Open+Sans:wght@300;400&family=Raleway:wght@300;400&family=Roboto+Condensed:ital@0;1&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -82,13 +81,14 @@ body {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-#hometext {
+.hometext {
   color: rgb(70, 69, 66);
   width: 80%;
   font-size: 25px;
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   padding-left: 10%;
+  font-style: italic;
 }
 
 #abouttext {
@@ -323,8 +323,9 @@ body {
     font-size: 30px;
   }
 
-  #hometext {
+  .hometext {
     font-size: 18px;
+    text-transform: uppercase;
   }
 
   .fullcarousel {
