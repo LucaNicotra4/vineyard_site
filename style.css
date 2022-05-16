@@ -239,6 +239,12 @@ body {
   animation-duration: 1.5s;
 }
 
+#contact_page {
+  font-family: "Raleway";
+  margin: 0;
+  font-size: 30px;
+}
+
 @keyframes fade {
   from {
     opacity: 0.4;
