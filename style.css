@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #974a37;
@@ -13,7 +18,7 @@
   padding: 20px 24px;
   text-decoration: none;
   font-size: 25px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Change the color of links on hover */
@@ -53,12 +58,35 @@
   text-align: center;
   padding-top: 30px;
   margin-top: 0px;
+  font-family: "Open Sans", arial;
+  font-size: 300%;
 }
 
+#customletter {
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 0px;
+  font-family: "Open Sans", arial;
+  font-size: 125%;
+}
+
+#reserva {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 60%;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 #hometext {
   color: rgb(70, 69, 66);
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 80%;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding-left: 10%;
 }
 
 #abouttext {
@@ -143,7 +171,7 @@
     text-align: left;
   }
   .responsive-image2 {
-    width: 50%;
+    width: 80%;
     height: auto;
     max-width: 600px;
     float: none;
@@ -163,5 +191,9 @@
 
   .h2about {
     font-size: 30px;
+  }
+
+  #hometext {
+    font-size: 18px;
   }
 }
