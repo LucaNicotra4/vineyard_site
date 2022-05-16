@@ -243,7 +243,6 @@ body {
   font-family: "Raleway";
   margin: 0;
   font-size: 30px;
-  padding: 20px;
 }
 
 @keyframes fade {
@@ -253,6 +252,21 @@ body {
   to {
     opacity: 1;
   }
+}
+
+.winepages {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0; /* to remove the white space between inline-block elements */
+}
+.winepage {
+  display: inline-block;
+  margin: 2px auto;
+  margin-right: 2px;
+  width: 23%;
+  background-color: rgb(91, 116, 91);
+  font-size: 16px; /* reset the font size (i.e 1em = 16px) */
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
