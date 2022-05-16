@@ -262,12 +262,15 @@ body {
 
 .winepage {
   display: inline-block;
-  margin: 2px auto;
-  margin-right: 5px;
+  margin: 7px auto;
+  margin-right: 15px;
   max-width: 20%;
   font-size: 16px; /* reset the font size (i.e 1em = 16px) */
   border: 3px solid black;
   max-width: 400px;
+  border-radius: 20px;
+  border-width: 3px;
+  box-shadow:10px 10px 10px #3e5d9c;
   position: relative;
 }
 
