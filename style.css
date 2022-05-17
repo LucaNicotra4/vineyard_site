@@ -244,6 +244,15 @@ body {
   animation-duration: 3s;
 }
 
+.winepage {
+  font-family: "Open Sans";
+}
+
+hr {
+  width: 80%;
+  border: 2px solid #3e5d9c;
+}
+
 #contact_page {
   font-family: "Raleway";
   margin: 0;
