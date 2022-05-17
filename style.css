@@ -270,7 +270,7 @@ body {
   max-width: 400px;
   border-radius: 20px;
   border-width: 3px;
-  box-shadow:10px 10px 10px #3e5d9c;
+  box-shadow:10px 10px 10px rgb(70, 69, 66);
   position: relative;
 }
 
