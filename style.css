@@ -122,8 +122,9 @@ body {
   height: auto;
   max-width: 600px;
   float: left;
-  padding: 20px;
-  padding-right: 50px;
+  margin: 20px;
+  margin-right: 50px;
+  border: 5px solid white;
 }
 
 .cl {
@@ -145,6 +146,10 @@ body {
   margin-top: 0;
   text-align: center;
   color: white;
+}
+
+.carimg {
+  border: 5px solid white;
 }
 
 .fullcarousel {
@@ -256,7 +261,7 @@ body {
   margin-top: 20px;
   max-width: 90%;
   vertical-align: middle;
-  border: 5px solid white;
+  border: 5px solid #3e5d9c;
   border-radius: 15px;
 }
 
@@ -275,7 +280,7 @@ body {
   margin-top: 20px;
   max-width: 90%;
   vertical-align: middle;
-  border: 5px solid white;
+  border: 5px solid black;
   border-radius: 15px;
 }
 
@@ -298,6 +303,10 @@ body {
   border-width: 3px;
   box-shadow: 10px 10px 10px rgb(70, 69, 66);
   position: relative;
+}
+
+.wineimg {
+  border: 5px solid black;
 }
 
 hr {
@@ -373,7 +382,7 @@ hr {
     height: auto;
     max-width: 600px;
     float: none;
-    padding: 20px;
+    margin: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
