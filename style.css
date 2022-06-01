@@ -122,8 +122,9 @@ body {
   height: auto;
   max-width: 600px;
   float: left;
-  padding: 20px;
-  padding-right: 50px;
+  margin: 20px;
+  margin-right: 50px;
+  border: 5px solid white;
 }
 
 .cl {
@@ -145,6 +146,10 @@ body {
   margin-top: 0;
   text-align: center;
   color: white;
+}
+
+.carimg {
+  border: 5px solid white;
 }
 
 .fullcarousel {
@@ -248,8 +253,60 @@ body {
   font-family: "Open Sans";
 }
 
-.gallery img {
-  max-width: 500px;
+.winecol {
+  flex: 40%;
+}
+
+.winecol .winepage {
+  margin-top: 20px;
+  max-width: 90%;
+  vertical-align: middle;
+  border: 5px solid #3e5d9c;
+  border-radius: 15px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  padding-bottom: 20px;
+}
+
+.gallery .col {
+  flex: 40%;
+}
+
+.gallery .col img {
+  margin-top: 20px;
+  max-width: 90%;
+  vertical-align: middle;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+.winepages {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  padding-bottom: 20px;
+}
+
+.winepage {
+  display: inline-block;
+  margin: 7px auto;
+  margin-right: 15px;
+  max-width: 20%;
+  font-size: 16px; /* reset the font size (i.e 1em = 16px) */
+  border: 3px solid black;
+  max-width: 400px;
+  border-radius: 20px;
+  border-width: 3px;
+  box-shadow: 10px 10px 10px rgb(70, 69, 66);
+  position: relative;
+}
+
+.wineimg {
+  border: 5px solid black;
 }
 
 hr {
@@ -279,26 +336,6 @@ hr {
   to {
     opacity: 1;
   }
-}
-
-.winepages {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 0; /* to remove the white space between inline-block elements */
-}
-
-.winepage {
-  display: inline-block;
-  margin: 7px auto;
-  margin-right: 15px;
-  max-width: 20%;
-  font-size: 16px; /* reset the font size (i.e 1em = 16px) */
-  border: 3px solid black;
-  max-width: 400px;
-  border-radius: 20px;
-  border-width: 3px;
-  box-shadow: 10px 10px 10px rgb(70, 69, 66);
-  position: relative;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -332,12 +369,20 @@ hr {
     max-width: 350px;
   }
 
+  .gallery .col {
+    flex: 60%;
+  }
+
+  .winecol {
+    flex: 60%;
+  }
+
   .responsive-image2 {
     width: 80%;
     height: auto;
     max-width: 600px;
     float: none;
-    padding: 20px;
+    margin: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
